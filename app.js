@@ -154,7 +154,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function moveStraight () {
     isGoingRight = false
-    isGoingRight = false
+    isGoingLeft = false
     clearInterval(leftTimerId)
     clearInterval(rightTimerId)
   }
